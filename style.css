@@ -1,0 +1,54 @@
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cornsilk;
+    background-image: url('background.png');
+    margin: 0;
+}
+.head {
+    color: cornsilk;
+    transition: 0.4s;
+    text-align: center;
+    animation: FadeIn 0.8s ease;
+}
+.haslo {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid burlywood;
+    margin-bottom: 10px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    animation: FadeIn 0.8s ease;
+}
+.wynik {
+    color: rgb(171, 138, 7);
+    transition: 0.4s;
+    text-align: center;
+    display: block;
+    animation: FadeIn 0.8s ease;
+}
+.przycisk {
+    border: 2px solid burlywood;
+    margin-bottom: 10px;
+    width: 100px;
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    animation: FadeIn 0.8s ease;
+}

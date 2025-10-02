@@ -1,0 +1,81 @@
+img {
+    transition: transform 2s cubic-bezier(0,5 0,8 0,5);
+}
+img:hover {
+    transform: scale(0.95);
+    opacity: 2;
+}
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1.5;
+        transform: translateX(0px);
+    }
+}
+body {
+    background-color: cornsilk;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    animation: FadeIn 2.4s ease;
+}
+.head {
+    color: black;
+    text-align: center;
+    display: block;
+    animation: FadeIn 0.6s ease;
+}
+.text {
+    color: black;
+    animation: FadeIn 1.2s ease;
+    text-align: center;
+    display: block;
+}
+.github {
+    color: black;
+    text-align: center;
+    display: block;
+    animation: FadeIn 1.8s ease;
+}
+h6 {
+    color: black;
+    margin-top: -10px;
+    text-align: center;
+    display: block;
+    animation: FadeIn 0.7s ease;
+}
+.vscode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    animation: FadeIn 2.4s ease;
+}
+.container2 {
+    background-color: bisque;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: auto;
+    animation: FadeIn 3s ease;
+}
+.container1 {
+    background-color: bisque;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    animation: FadeIn 3.6s ease;
+}
